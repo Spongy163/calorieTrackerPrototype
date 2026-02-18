@@ -22,8 +22,12 @@ public class Database {
 	private ArrayList<Food> foods;
 	
 	/* CONSTRUCTORS
-	 * +Journal() = 
+	 * +Database() = 
 	 */
+	
+	public Database() {
+		//TODO initialize from file
+	}
 	
 	
 	
