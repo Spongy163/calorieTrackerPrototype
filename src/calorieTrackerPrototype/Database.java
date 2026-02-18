@@ -10,7 +10,7 @@ import java.time.LocalDate;
 import java.util.Map;
 import java.util.ArrayList;
 
-public class Journal {
+public class Database {
 
 	
 	/* INSTANCE METHODS
@@ -18,7 +18,7 @@ public class Journal {
 	 * -foods:ArrayList<Food> = stores all of the foods
 	 */
 	
-	private Map<LocalDate, DailyNutrition> calendar;
+	private Map<LocalDate, NutritionSnapshot> calendar;
 	private ArrayList<Food> foods;
 	
 	/* CONSTRUCTORS

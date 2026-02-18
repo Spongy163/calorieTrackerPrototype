@@ -8,7 +8,7 @@ package calorieTrackerPrototype;
 
 import java.time.LocalDate;
 
-public class DailyNutrition {
+public class NutritionSnapshot {
 	
 	/* INSTANCE DATA FIELDS
 	 * -calories:int = stores the calorie intake
@@ -24,7 +24,7 @@ public class DailyNutrition {
 	 * +DailyNutrition() = no argument constructor
 	 */
 	
-	DailyNutrition() {
+	NutritionSnapshot() {
 		this.calories = 0;
 		this.protein = 0;
 		this.date = LocalDate.now();
