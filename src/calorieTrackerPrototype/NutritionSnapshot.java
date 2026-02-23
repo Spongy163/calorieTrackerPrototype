@@ -33,30 +33,22 @@ public class NutritionSnapshot {
 	
 	//GETTER AND SETTER
 	
-	/**
-	 * @return the date
-	 */
+	//getDate returns date
 	public LocalDate getDate() {
 		return date;
 	}
 
-	/**
-	 * @param date the date to set
-	 */
+	//setDate sets date as LocalDate
 	public void setDate(LocalDate date) {
 		this.date = date;
 	}
 
-	/**
-	 * @return the calories
-	 */
+	//getCalories returns calories
 	public int getCalories() {
 		return calories;
 	}
 
-	/**
-	 * @return the protein
-	 */
+	//getProtein returns protein
 	public int getProtein() {
 		return protein;
 	}
@@ -69,24 +61,22 @@ public class NutritionSnapshot {
 	 */
 	
 	
-	/**
-	 * @param calories the calories to increment by
-	 */
+	//addCalories increments calories by input
 	public void addCalories(int calories) {
 		this.calories = this.calories + calories;
 	}
 	
-	/**
-	 * @param protein the protein to increment by
-	 */
+	//addProtein increments protein by input
 	public void addProtein(int protein) {
 		this.protein = this.protein + protein;
 	}
 	
+	//resetCalories sets calories to zero
 	public void resetCalories() {
 		this.calories = 0;
 	}
 	
+	//resetProtein sets protein to zero
 	public void resetProtein() {
 		this.protein = 0;
 	}
